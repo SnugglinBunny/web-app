@@ -1,0 +1,26 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# dependencies
+/node_modules
+/v1-app/node_modules
+/venv
+.vscode
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+# /build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
